@@ -3,14 +3,8 @@
     <head>
         <title>코알누 스터디 240528</title>
         <meta charset="utf-8">
-        <style>
-            img {
-                max-height: 200px;
-            }
-            button {
-                margin-left: 10px;
-            }
-        </style>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>자기소개서</h1>
@@ -23,12 +17,12 @@
         </ul>
         <h2>좋아하는 가수</h2>
         <div>
-            <img src="https://m.media-amazon.com/images/M/MV5BYTZiNGE3NGYtOGM0NC00YzE2LWFhNjUtZjEwZjI5NDAyMTM3XkEyXkFqcGdeQXVyMTQwNDk0MzYy._V1_.jpg" alt="radiohead">
+            <img src="assets/MV5BYTZiNGE3NGYtOGM0NC00YzE2LWFhNjUtZjEwZjI5NDAyMTM3XkEyXkFqcGdeQXVyMTQwNDk0MzYy._V1_.jpg" alt="radiohead">
         </div>
         <p>radiohead</p>
         <p><a href="https://www.youtube.com/watch?v=XFkzRNyygfk" target="_blank">radiohead 공연 보러가기</a></p>
         <h2>좋아하는 노래</h2>
-        <audio src="//samplelib.com/lib/preview/mp3/sample-15s.mp3" controls></audio>
+        <audio src="assets/sample-15s.mp3" controls></audio>
         <h2>인적사항</h2>
         <table>
             <thead>
@@ -49,6 +43,6 @@
             </tbody>
         </table>
         <h2>연락&문의</h2>
-        <input type="text" placeholder="궁금한 사항을 써주세요"><button type="submit">전송</button>
+        <input type="text" placeholder="궁금한 사항을 써주세요"><button type="button" onclick="sayHello();">전송</button>
     </body>
 </html>
